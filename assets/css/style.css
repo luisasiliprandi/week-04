@@ -1,11 +1,25 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: rgb(247, 213, 234);
     color: white;
+    border: 30px solid white;
+    /*margin: 30px; */
 }
 
 .author {
     font-size: 90px;
     color: whitesmoke;
+}
+
+.author:hover {
+    font-size: 95px;
+    cursor: vertical-text;
+
 }
 
 .section-title {
@@ -15,4 +29,31 @@ body {
 
 .project {
     border: 1px solid white;
+    background-color: rgb(231, 120, 194);
+    padding-left: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.project-title {
+    font-size: 30px;
+    color: rgb(7, 83, 7);
+
+}
+
+.project p {
+    font-size: 20px;
+}
+
+.project a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project a:hover {
+    font-weight: normal;
+    border-top: 10px dotted yellow;
+
 }
