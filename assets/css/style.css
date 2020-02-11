@@ -2,18 +2,19 @@ html,
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 body {
     background-color: rgb(247, 213, 234);
-    color: white;
-    border: 30px solid white;
+    color: rgb(255, 255, 255);
+    border: 30px solid rgb(255, 255, 255);
     /*margin: 30px; */
 }
 
 .author {
     font-size: 90px;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
 }
 
 .author:hover {
@@ -24,7 +25,14 @@ body {
 
 .section-title {
     font-size: 60px;
-    color: green;
+    color: rgb(0, 128, 0);
+}
+
+/*Projects Section*/
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .project {
@@ -39,7 +47,6 @@ body {
 .project-title {
     font-size: 30px;
     color: rgb(7, 83, 7);
-
 }
 
 .project p {
@@ -50,6 +57,7 @@ body {
     color: green;
     font-weight: bold;
     text-decoration: none;
+
 }
 
 .project a:hover {
