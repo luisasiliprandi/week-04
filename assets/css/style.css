@@ -8,3 +8,11 @@ body {
     color: whitesmoke;
 }
 
+.section-title {
+    font-size: 60px;
+    color: green;
+}
+
+.project {
+    border: 1px solid white;
+}
